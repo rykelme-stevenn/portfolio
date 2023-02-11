@@ -1,0 +1,75 @@
+<div  style="padding: 10px;">
+  <button mat-flat-button style="background-color: #dc3545; color:white;" (click)="back()">Voltar</button>
+  <div class="row">
+    <div class="col-4">&nbsp;</div>
+    <div class="col-4" style="color: #dc3545 !important; font-size: 25px;" >
+      <div class="row">
+        <div class="col-3">&nbsp;</div>
+        <div class="col-3 placar" style="text-align: center; padding: 10px;"> <app-x class="placar-obj" size="small"></app-x> {{counter.x}}</div>
+        <div class="col-3 placar" style="text-align: center; padding: 10px;" ><app-circle size="small" class="placar-obj"></app-circle> {{counter.O}}</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row" style="padding: 30px;">
+    <div class="col-4">&nbsp;</div>
+    <div class="col-4 panel" >
+      <div class="row">
+        <div class="tres um" (click)="chosed(1)">
+          <app-x *ngIf="isX(1)"></app-x>
+          <app-circle *ngIf="isO(1)"></app-circle>
+        </div>
+      
+        <div class="tres dois" (click)="chosed(2)">
+          <app-x *ngIf="isX(2)"></app-x>
+          <app-circle *ngIf="isO(2)"></app-circle>
+        </div>
+      
+        <div class="tres tre" (click)="chosed(3)">
+          <app-x *ngIf="isX(3)"></app-x>
+          <app-circle *ngIf="isO(3)"></app-circle>
+        </div>
+      
+      </div>
+      <div class="row">
+          <div class="tres quatro" (click)="chosed(4)">
+            <app-x *ngIf="isX(4)"></app-x>
+            <app-circle *ngIf="isO(4)"></app-circle>
+          </div>
+        
+          <div class="tres cinco" (click)="chosed(5)">
+            <app-x *ngIf="isX(5)"></app-x>
+            <app-circle *ngIf="isO(5)"></app-circle>
+          </div>
+        
+          <div class="tres seis" (click)="chosed(6)">
+            <app-x *ngIf="isX(6)"></app-x>
+            <app-circle *ngIf="isO(6)"></app-circle>
+          </div>
+        
+      </div>
+      <div class="row">
+          <div class="tres sete" (click)="chosed(7)">
+            <app-x *ngIf="isX(7)"></app-x>
+            <app-circle *ngIf="isO(7)"></app-circle>
+          </div>
+        
+          <div class="tres oito" (click)="chosed(8)">
+            <app-x *ngIf="isX(8)"></app-x>
+            <app-circle *ngIf="isO(8)"></app-circle>
+          </div>
+        
+          <div class="tres nove" (click)="chosed(9)">
+            <app-x *ngIf="isX(9)"></app-x>
+            <app-circle *ngIf="isO(9)"></app-circle>
+          </div>
+        
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+
+
+

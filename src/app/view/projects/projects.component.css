@@ -1,0 +1,66 @@
+body{
+    width: 90vw;
+    margin: auto;
+    height: 100vh;
+    background-color: #212529;
+    /* overflow-y: hidden !important; */
+}
+
+
+.myprojects{
+    color: white;
+    border-bottom: solid white 1px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.myprojects:hover{
+    transition: 0.5s;
+    color: white;
+    border-bottom: solid #dc3545 1px;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+
+p{
+    color: black;
+}
+
+.card-body{
+    padding: 10px;
+}
+
+.badge{
+    margin-right: 2px;
+}
+
+.card{
+    height: 24vh;
+    border-radius: 15px;
+}
+
+/* .card:hover{
+    transition: 0.5s;
+    margin-top: 5vh;
+    cursor: pointer;
+} */
+
+#descricao{
+    height: 12vh;
+}
+
+.jogo-velha{
+    margin-top: 3vh;
+    margin: auto;
+}
+
+
+
+.card:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    
+}

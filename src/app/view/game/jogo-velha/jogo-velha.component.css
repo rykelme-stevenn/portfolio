@@ -1,0 +1,73 @@
+div.tres {
+    /* background: lightblue; */
+    width: 150px;
+    height: 150px;
+    /* cores: topo, direita, inferior, esquerda */
+}
+
+.um {
+    border-bottom: solid #dc3545 4px;
+    border-right: solid #dc3545 4px;
+}
+
+.dois {
+    border-bottom: solid #dc3545 4px;
+    border-right: solid #dc3545 4px;
+}
+
+.tre {
+    border-bottom: solid #dc3545 4px;
+}
+
+.quatro {
+    border-bottom: solid #dc3545 4px;
+    border-right: solid #dc3545 4px;
+}
+
+.cinco {
+    border-bottom: solid #dc3545 4px;
+    border-right: solid #dc3545 4px;
+}
+
+.seis {
+    border-bottom: solid #dc3545 4px;
+}
+
+.sete {
+    border-right: solid #dc3545 4px;
+}
+
+.oito {
+    border-right: solid #dc3545 4px;
+}
+
+.placar {
+    /* background-color: #f2f2f2; */
+    border-radius: 14px;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.placar-obj {
+    /* position: absolute; */
+    margin-top: 70% !important;
+    /* margin-left: 50%; */
+    /* margin-right: -50%; */
+    /* transform: translate(-50%, -50%) */
+}
+
+.panel {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
